@@ -27,7 +27,7 @@ const Login = () => {
             style={styles.inputUsername}
             secureTextEntry={false}
             autoFocus={true}
-            placeholder="Kullanıcı Adı"
+            placeholder="User Name"
             placeholderTextColor="#929292"
           />
 
@@ -36,18 +36,18 @@ const Login = () => {
             keyboardType="numeric"
             secureTextEntry={true}
             autoFocus={true}
-            placeholder="Parola"
+            placeholder="Password"
             placeholderTextColor="#929292"
           />
 
           <TouchableOpacity style={styles.buttonLogin}>
-            <Text style={styles.buttonLoginText}>Giriş Yap</Text>
+            <Text style={styles.buttonLoginText}>Login</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.action}>
           <TouchableOpacity>
-            <Text style={styles.userText}>Şifremi unuttum</Text>
+            <Text style={styles.userText}>Forgot Password!</Text>
           </TouchableOpacity>
 
         </View>
